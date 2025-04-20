@@ -36,9 +36,10 @@ async def stations(update: Update, context: CallbackContext) -> None:
     keyboard = [
         [
             InlineKeyboardButton("📍 Xəritədə bax", url=station["location_url"]),
-            InlineKeyboardButton("📢 İnformator", callback_data=f"info_{station['informator_url']}")
+            InlineKeyboardButton("📢 İnformator", url=station["informator_url"])
         ]
     ]
+
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(message, parse_mode="Markdown", reply_markup=reply_markup)
