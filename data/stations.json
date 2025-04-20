@@ -1,0 +1,22 @@
+        {
+            "stations": {
+            "28 May": {
+                "name": "28 May",
+                "opened": "1967",
+                "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+                "directions": [
+                "İçərişəhər - Həzi Aslanov",
+                "Həzi Aslanov - İçərişəhər",
+                "Dərnəgül - Həzi Aslanov",
+                "Həzi Aslanov - Dərnəgül"
+                ],
+                "transfer": "Cəfər Cabbarlı",
+                "location": "Nəsimi rayonu, Bakı",
+                "location_url": "https://maps.app.goo.gl/Pqw3EoqkB2aCqXJZ7",
+                "informator_url": "https://youtu.be/_6XVxIQXGDs?si=PMXc-vN50dkRYEle",
+                "exits": 4,
+                "interval": "2-4 dəqiqə",
+                "description": "Bakı metropoliteninin ən işlək stansiyalarından biridir və iki xətt arasında keçid imkanı təqdim edir."
+            }
+            }
+        }

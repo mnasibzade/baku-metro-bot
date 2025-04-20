@@ -1,6 +1,7 @@
 import sys
 from modules.start import start
 from modules.fact import fact
+from modules.stations import stations
 from telegram.ext import Application, CommandHandler
 
 def read_token():
@@ -22,6 +23,7 @@ def main():
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("fact", fact))
+    app.add_handler(CommandHandler("station", stations))
 
     app.run_polling()
 
