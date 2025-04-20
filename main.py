@@ -1,5 +1,6 @@
 import sys
 from modules.start import start
+from modules.fact import fact
 from telegram.ext import Application, CommandHandler
 
 def read_token():
@@ -20,6 +21,7 @@ def main():
     app = Application.builder().token(TOKEN).job_queue(None).build()
 
     app.add_handler(CommandHandler("start", start))
+    app.add_handler(CommandHandler("fact", fact))
 
     app.run_polling()
 
