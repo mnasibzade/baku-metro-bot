@@ -10,7 +10,7 @@ def load_st_data():
 
 async def stations(update: Update, context: CallbackContext) -> None:
     if len(context.args) == 0:
-        await update.message.reply_text("Stansiya adı daxil edin!\n\nMəsələn: /station 28 May")
+        await update.message.reply_text("Stansiya adı daxil edin!\n\nMəsələn: /station 28 May (Stansiya adını Azərbaycan Dilində daxil edin!)")
         return
 
     station_name = " ".join(context.args)
@@ -18,7 +18,7 @@ async def stations(update: Update, context: CallbackContext) -> None:
     station = station_data.get(station_name)
 
     if not station:
-        await update.message.reply_text("Bu adda stansiya tapılmadı. Zəhmət olmasa düzgün ad daxil edin.")
+        await update.message.reply_text("Stansiya adı düzgün daxil edilməyib və ya düzgün şəkildə yazılmayıb. Adın düzgün yazıldığına əmin olun! Azərbaycan dilində yazın\nMəsələn: /station Qara Qarayev")
         return
 
     message = (
