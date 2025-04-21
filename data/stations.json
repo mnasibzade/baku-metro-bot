@@ -1,22 +1,230 @@
-        {
-            "stations": {
-            "28 May": {
-                "name": "28 May",
-                "opened": "1967",
-                "lines": ["Qırmızı xətt", "Yaşıl xətt"],
-                "directions": [
-                "İçərişəhər - Həzi Aslanov",
-                "Həzi Aslanov - İçərişəhər",
-                "Dərnəgül - Həzi Aslanov",
-                "Həzi Aslanov - Dərnəgül"
-                ],
-                "transfer": "Cəfər Cabbarlı",
-                "location": "Nəsimi rayonu, Bakı",
-                "location_url": "https://maps.app.goo.gl/Pqw3EoqkB2aCqXJZ7",
-                "informator_url": "https://youtu.be/_6XVxIQXGDs?si=PMXc-vN50dkRYEle",
-                "exits": 4,
-                "interval": "2-4 dəqiqə",
-                "description": "Bakı metropoliteninin ən işlək stansiyalarından biridir və iki xətt arasında keçid imkanı təqdim edir."
-            }
-            }
-        }
+{
+    "stations": {
+      "28 May": {
+        "name": "28 May",
+        "opened": "1967",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "Cəfər Cabbarlı",
+        "location": "Nəsimi rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/Pqw3EoqkB2aCqXJZ7",
+        "informator_url": "https://youtu.be/_6XVxIQXGDs?si=PMXc-vN50dkRYEle",
+        "exits": 4,
+        "interval": "2-4 dəqiqə",
+        "description": "Bakı metropoliteninin ən işlək stansiyalarından biridir və iki xətt arasında keçid imkanı təqdim edir."
+      },
+      "Sahil": {
+        "name": "Sahil",
+        "opened": "1967",
+        "lines": ["Qırmızı xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər"
+        ],
+        "transfer": "",
+        "location": "Səbail rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/FtJHw3QeUp74fA6FA",
+        "informator_url": "https://youtu.be/6rIPg7EdqDQ?si=SUhYWo67J4t9TWFW",
+        "exits": 1,
+        "interval": "2-4 dəqiqə",
+        "description": "Bakı metropoliteninin ən qədim stansiyalarından biridir. Adını Xəzər dənizinin sahilinə yaxın yerləşməsindən alır. Mərkəzi bölgəyə çıxışı təmin etdiyi üçün sərnişin axını yüksək olan stansiyalardandır."
+      },
+      "İçərişəhər": {
+        "name": "İçərişəhər",
+        "opened": "1967",
+        "lines": ["Qırmızı xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər"
+        ],
+        "transfer": "",
+        "location": "Səbail rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/XYZ123",
+        "informator_url": "https://youtu.be/6rIPg7EdqDQ?si=SUhYWo67J4t9TWFW",
+        "exits": 1,
+        "interval": "2-4 dəqiqə",
+        "description": "İçərişəhər stansiyası Bakı metrosunun ən qədim və tarixi əhəmiyyətə malik stansiyalarından biridir. Eyni zamanda Bakı metropoliteninin ən qərbdə yerləşən stansiyasıdır. Stansiya eyni adlı tarixi abidə – İçərişəhər qoruğuna yaxın yerləşdiyi üçün bu adı almışdır. Turistlər və şəhər sakinləri üçün vacib giriş nöqtəsidir."
+      },
+      "Nəriman Nərimanov": {
+        "name": "Nəriman Nərimanov",
+        "opened": "1967",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "Nərimanov rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/1zNryR4vryhUUDbBA",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "Nərimanov stansiyası Bakı metrosunun ilk açılmış stansiyalarından biridir və şəhərin əsas nəqliyyat qovşaqlarından birini təşkil edir."
+      },
+      "Gənclik": {
+        "name": "Gənclik",
+        "opened": "1967",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "Nərimanov rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/bfCazWHcqAnfgygS6",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "Gənclik stansiyası ticarət və əyləncə mərkəzlərinə yaxınlığı ilə seçilir və gündəlik sərnişin sayı yüksəkdir."
+      },
+      "Bakmil": {
+        "name": "Bakmil",
+        "opened": "1979",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "Bakmil - Dərnəgül",
+          "Dərnəgül - Bakmil",
+          "Bakmil - İçərişəhər",
+          "İçərişəhər - Bakmil"
+        ],
+        "transfer": "",
+        "location": "Nərimanov rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/GU9sLijPbBtshC7PA",
+        "informator_url": "",
+        "exits": 1,
+        "interval": "İnterval hərəkət cədvəlinə uyğun tənzimlənir",
+        "description": "Bu stansiya Bakı metrosunun ilk yerüstü stansiyasıdır və əvvəllər 'Elektrozavod' adı ilə tanınırdı."
+      },
+      "Ulduz": {
+        "name": "Ulduz",
+        "opened": "1970",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "Nərimanov rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/iGZAxwSUbBTfHBA5A",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "28 oktyabr 1995-ci ildə Ulduz stansiyasından Nərimanov stansiyasına gedən qatarda baş verən yanğın, Bakı metrosunun tarixində ən böyük qəza kimi qeyd olunur. Bu faciə nəticəsində çoxsaylı insan tələfatı olmuşdur."
+      },
+      "Koroğlu": {
+        "name": "Koroğlu",
+        "opened": "1972",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "Nərimanov rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/wod2RJehWnSCqZxN6",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "Stansiya, yüngül və sadə konstruksiyalardan istifadə edilərək inşa edilmişdir. Əvvəlki dövrlərdə iki cərgə boyunca düzülmüş 32 sütun ağ-gümüşü büzməli metal təbəqə ilə örtülmüşdü. Yol divarları tünd rəngli mərmərdən, platformanın döşəməsi isə açıq rəngli mərmərdən və qara zolaqlı qranitlə haşiyələnmişdir."
+      },
+      "Qara Qarayev": {
+        "name": "Qara Qarayev",
+        "opened": "1972",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "Nizami rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/DLp1CaPV5TKGbgrQA",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "Stansiya, Bakı metrosunun Qırmızı xəttinin (İçərişəhər – Həzi Aslanov) 9-cu stansiyasıdır və 6 noyabr 1972-ci ildə istifadəyə verilmişdir. Əvvəlki adı 'Avrora' idi, lakin müstəqillik dövründə Azərbaycanın görkəmli bəstəkarı Qara Qarayevin şərəfinə adı dəyişdirilmişdir."
+      },
+      "Neftçilər": {
+        "name": "Neftçilər",
+        "opened": "1972",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "Nizami rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/8uGMTUrxRnbM1Yby8",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "Stansiya, Bakı şəhərinin 8-ci kilometr yaşayış sahəsində yerləşir və Qara Qarayev prospekti ilə Rüstəm Rüstəmov küçələrinin kəsişməsindədir. Ətrafda müxtəlif yaşayış binaları, ticarət obyektləri və ictimai xidmətlər mövcuddur.​"
+      },
+      "Xalqlar Dostluğu": {
+        "name": "Xalqlar Dostluğu",
+        "opened": "1989",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "Nərimanov rayonu, Bakı",
+        "location_url": "https://maps.app.goo.gl/XDVxZuDY3jfXA1nY9",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "Stansiyanın interyerində Azərbaycanın müxtəlif xalqlarının mədəniyyətini və tarixini əks etdirən elementlər mövcuddur. Həmçinin, stansiyanın dizaynında ənənəvi Azərbaycan sənətkarlığının təsiri görsənir."
+      },
+      "Əhmədli": {
+        "name": "Əhmədli",
+        "opened": "1989",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [
+          "İçərişəhər - Həzi Aslanov",
+          "Həzi Aslanov - İçərişəhər",
+          "Dərnəgül - Həzi Aslanov",
+          "Həzi Aslanov - Dərnəgül"
+        ],
+        "transfer": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/k2xytNz4VFJy7csSA",
+        "informator_url": "",
+        "exits": 2,
+        "interval": "2-4 dəqiqə",
+        "description": "Əhmədli stansiyası, Bakı metrosunun inkişafında mühüm mərhələni təmsil edir. 1989-cu ildə istifadəyə verildikdən sonra, 2002-ci ilə qədər Qırmızı xəttin sonuncu stansiyası olmuşdur. Bu tarixdən sonra, Həzi Aslanov stansiyasının istifadəyə verilməsi ilə Qırmızı xəttin uzadılması həyata keçirilmişdir"
+      },
+      "Həzi Aslanov": {
+        "name": "Həzi Aslanov",
+        "opened": "2002",
+        "lines": ["Qırmızı xətt", "Yaşıl xətt"],
+        "directions": [ "Təmirə bağlıdır"],
+        "transfer": "null",
+        "location": "null",
+        "location_url": "https://maps.app.goo.gl/i2PmZigDxsftSZUYA",
+        "informator_url": "",
+        "exits": null,
+        "interval": null,
+        "description": "Hal-hazırda, Həzi Aslanov stansiyasının dalanında əsaslı təmir və yenidənqurma işləri aparılır. Bu sahə qatarların bir yoldan digərinə keçirilməsi, gecələməsi, baxış, xidmət, qulluq və kiçikhəcmli təmir işləri üçün nəzərdə tutulmuş texniki sahədir "
+      }
+    }
+  }
+  
