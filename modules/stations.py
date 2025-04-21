@@ -33,12 +33,19 @@ async def stations(update: Update, context: CallbackContext) -> None:
         f"ℹ️ Haqqında: {station['description']}"
     )
 
-    keyboard = [
-        [
-            InlineKeyboardButton("📍 Xəritədə bax", url=station["location_url"]),
-            InlineKeyboardButton("📢 İnformator", url=station["informator_url"])
-        ]
-    ]
+    keyboard = []
+
+    row = []
+    if station.get("location_url"):
+        row.append(InlineKeyboardButton("📍 Xəritədə bax", url=station["location_url"]))
+    if station.get("informator_url"):
+        row.append(InlineKeyboardButton("📢 İnformator", url=station["informator_url"]))
+
+    if row:
+        keyboard.append(row)
+
+    reply_markup = InlineKeyboardMarkup(keyboard) if keyboard else None
+
 
     reply_markup = InlineKeyboardMarkup(keyboard)
 
